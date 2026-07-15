@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Rands Cape Town | Book, Call, WhatsApp</title>
+  <meta name="description" content="Contact Rands Cape Town: phone, email, WhatsApp, address and a message form. Find us in Khayelitsha, Cape Town." />
+  <meta name="theme-color" content="#111111" />
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+<body data-page="contact.html">
+
+  <div class="loader" aria-hidden="true"><div class="l-logo">RAN<span>D</span>S</div><div class="spinner"></div></div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand" aria-label="Rands Cape Town home">
+        <img src="images/randslogo.jpeg" alt="Rands Cape Town logo" onerror="this.style.display='none';this.nextElementSibling.style.display='inline';" />
+        <span class="brand-fallback" style="display:none">RAN<span style="color:var(--gold)">D</span>S<br><small style="font-family:var(--font-body);font-size:.5em;letter-spacing:.3em;color:var(--gold)">CAPE TOWN</small></span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="about.html" data-page="about.html">About</a>
+        <a href="menu.html" data-page="menu.html">Menu</a>
+        <a href="gallery.html" data-page="gallery.html">Gallery</a>
+        <a href="events.html" data-page="events.html">Events</a>
+        <a href="sponsors.html" data-page="sponsors.html">Sponsors &amp; Partners</a>
+        <a href="hours.html" data-page="hours.html">Operating Hours</a>
+        <a href="contact.html" data-page="contact.html">Contact</a>
+        <span class="mobile-cta"><a href="contact.html" class="btn btn-primary btn-sm">Book / Enquire</a></span>
+      </nav>
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm nav-cta">Book / Enquire</a>
+        <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" style="background-image:url('https://picsum.photos/seed/rands-contact-hero/1920/900')">
+      <div class="container">
+        <div class="breadcrumbs"><a href="index.html">Home</a> / Contact</div>
+        <h1>Get in Touch</h1>
+        <p class="lead">Bookings, enquiries and private events — we'd love to hear from you.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- INFO -->
+          <div class="contact-info reveal">
+            <span class="eyebrow">Contact Details</span>
+            <h2>Let's Talk</h2>
+            <p class="mt-2">Reach us by phone, WhatsApp, email or just swing by. For table bookings and events, WhatsApp is fastest.</p>
+
+            <div class="info-item mt-3">
+              <div class="info-icon">📞</div>
+              <div><h4>Phone</h4><a href="tel:+27210000000">+27 21 000 0000</a></div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">💬</div>
+              <div><h4>WhatsApp</h4><a href="https://wa.me/27000000000" target="_blank" rel="noopener">+27 00 000 0000</a></div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">✉️</div>
+              <div><h4>Email</h4><a href="mailto:hello@randscapetown.co.za">hello@randscapetown.co.za</a></div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div><h4>Address</h4><p>Khayelitsha, Cape Town<br>Western Cape, South Africa</p></div>
+            </div>
+
+            <h4 style="margin-top:1.5rem">Follow Us</h4>
+            <div class="social-row">
+              <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener">FB</a>
+              <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+              <a href="https://tiktok.com" aria-label="TikTok" target="_blank" rel="noopener">TT</a>
+              <a href="https://wa.me/27000000000" aria-label="WhatsApp" target="_blank" rel="noopener">WA</a>
+            </div>
+
+            <div class="btn-row mt-3">
+              <a href="https://wa.me/27000000000" class="btn btn-secondary" target="_blank" rel="noopener">💬 WhatsApp Us</a>
+            </div>
+          </div>
+
+          <!-- FORM -->
+          <div class="form-card reveal reveal-right">
+            <h3>Send a Message</h3>
+            <p class="mb-3">We typically reply within 24 hours.</p>
+            <div class="form-success" role="status"></div>
+            <form id="contactForm" novalidate>
+              <div class="field" data-field="name">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name" />
+                <span class="err-msg"></span>
+              </div>
+              <div class="field" data-field="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@email.com" autocomplete="email" />
+                <span class="err-msg"></span>
+              </div>
+              <div class="field" data-field="subject">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Booking, event, feedback…" />
+                <span class="err-msg"></span>
+              </div>
+              <div class="field" data-field="message">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell us how we can help…"></textarea>
+                <span class="err-msg"></span>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg w-full">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAP -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Find Us</span>
+          <h2>Visit Rands Cape Town</h2>
+        </div>
+        <div class="map-wrap reveal">
+          <iframe class="map-embed" src="https://www.google.com/maps?q=Khayelitsha,%20Cape%20Town,%20South%20Africa&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Rands Cape Town location map"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <img src="images/randslogo.jpeg" alt="Rands Cape Town logo" />
+          <p>Khayelitsha's premium restaurant, shisanyama, bar &amp; entertainment destination. Good food, great music, unforgettable nights.</p>
+          <div class="footer-social">
+            <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener">FB</a>
+            <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+            <a href="https://tiktok.com" aria-label="TikTok" target="_blank" rel="noopener">TT</a>
+            <a href="https://wa.me/27000000000" aria-label="WhatsApp" target="_blank" rel="noopener">WA</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li><li><a href="gallery.html">Gallery</a></li>
+            <li><a href="events.html">Events</a></li><li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Business Hours</h4>
+          <ul>
+            <li>Mon — Closed</li><li>Tue–Wed — 12:00–22:00</li><li>Thu — 12:00–23:00</li>
+            <li>Fri — 12:00–Late</li><li>Sat — 11:00–Late</li><li>Sun — 11:00–21:00</li>
+          </ul>
+          <h4 style="margin-top:1.5rem">More</h4>
+          <ul><li><a href="sponsors.html">Sponsors &amp; Partners</a></li><li><a href="hours.html">Operating Hours</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>Get event invites &amp; specials straight to your inbox.</p>
+          <form class="newsletter">
+            <input type="email" placeholder="Your email" aria-label="Email address" required />
+            <button class="btn btn-primary btn-sm" type="submit">Join</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> Rands Cape Town. All rights reserved.</p>
+        <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" aria-label="Back to top">&#8593;</button>
+
+  <script src="js/app.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

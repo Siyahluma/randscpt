@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rands Cape Town — Premium Restaurant, Shisanyama & Entertainment | Khayelitsha</title>
+  <meta name="description" content="Rands Cape Town is a premium restaurant, shisanyama, bar and entertainment venue in Khayelitsha, Cape Town. Good food, great music, unforgettable nights." />
+  <meta name="keywords" content="Rands Cape Town, shisanyama, Khayelitsha restaurant, Cape Town bar, events, braai, nightlife" />
+  <meta name="author" content="Rands Cape Town" />
+  <meta name="theme-color" content="#111111" />
+  <meta property="og:title" content="Rands Cape Town — Premium Lifestyle Destination" />
+  <meta property="og:description" content="Restaurant · Shisanyama · Bar · Entertainment in Khayelitsha, Cape Town." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+<body data-page="index.html">
+
+  <!-- Loading animation -->
+  <div class="loader" aria-hidden="true">
+    <div class="l-logo">RAN<span>D</span>S</div>
+    <div class="spinner"></div>
+  </div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand" aria-label="Rands Cape Town home">
+        <img src="images/randslogo.jpeg" alt="Rands Cape Town logo" onerror="this.style.display='none';this.nextElementSibling.style.display='inline';" />
+        <span class="brand-fallback" style="display:none">RAN<span style="color:var(--gold)">D</span>S<br><small style="font-family:var(--font-body);font-size:.5em;letter-spacing:.3em;color:var(--gold)">CAPE TOWN</small></span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="about.html" data-page="about.html">About</a>
+        <a href="menu.html" data-page="menu.html">Menu</a>
+        <a href="gallery.html" data-page="gallery.html">Gallery</a>
+        <a href="events.html" data-page="events.html">Events</a>
+        <a href="sponsors.html" data-page="sponsors.html">Sponsors &amp; Partners</a>
+        <a href="hours.html" data-page="hours.html">Operating Hours</a>
+        <a href="contact.html" data-page="contact.html">Contact</a>
+        <span class="mobile-cta"><a href="contact.html" class="btn btn-primary btn-sm">Book / Enquire</a></span>
+      </nav>
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm nav-cta">Book / Enquire</a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO SLIDER ============ -->
+    <section class="hero">
+      <div class="slides">
+        <div class="slide active" style="background-image:url('https://picsum.photos/seed/rands-hero-1/1920/1080')">
+          <div class="container hero-content hero-anim anim-up">
+            <span class="eyebrow">Khayelitsha · Cape Town</span>
+            <h1>Where Cape Town <span class="accent">Comes Alive</span></h1>
+            <p>A premium restaurant, shisanyama, bar and entertainment destination — crafted for unforgettable nights and long, golden afternoons.</p>
+            <div class="btn-row">
+              <a href="menu.html" class="btn btn-primary">Explore the Menu</a>
+              <a href="events.html" class="btn btn-ghost">See Events</a>
+            </div>
+            <div class="hero-sub">
+              <div class="hero-stat"><div class="num">8+</div><div class="lbl">Years of Flavour</div></div>
+              <div class="hero-stat"><div class="num">500+</div><div class="lbl">Events Hosted</div></div>
+              <div class="hero-stat"><div class="num">4.9★</div><div class="lbl">Guest Rating</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" style="background-image:url('https://picsum.photos/seed/rands-hero-2/1920/1080')">
+          <div class="container hero-content hero-anim anim-up">
+            <span class="eyebrow">Shisanyama · Braai · Bar</span>
+            <h1>The Art of the <span class="accent">Perfect Braai</span></h1>
+            <p>Fire-grilled meats, signature cocktails and a soundscape that moves you. This is Rands — the heartbeat of Khayelitsha.</p>
+            <div class="btn-row">
+              <a href="menu.html" class="btn btn-primary">View Food &amp; Bar</a>
+              <a href="gallery.html" class="btn btn-ghost">Gallery</a>
+            </div>
+          </div>
+        </div>
+        <div class="slide" style="background-image:url('https://picsum.photos/seed/rands-hero-3/1920/1080')">
+          <div class="container hero-content hero-anim anim-up">
+            <span class="eyebrow">Nights · Music · VIP</span>
+            <h1>Your Weekend <span class="accent">Starts Here</span></h1>
+            <p>Top DJs, live performances and a VIP experience designed for those who expect more. Welcome to the destination.</p>
+            <div class="btn-row">
+              <a href="events.html" class="btn btn-primary">Upcoming Events</a>
+              <a href="contact.html" class="btn btn-ghost">Book a Table</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="slider-arrow prev" aria-label="Previous slide">&#8249;</button>
+      <button class="slider-arrow next" aria-label="Next slide">&#8250;</button>
+      <div class="slider-nav">
+        <button class="slider-dot active" aria-label="Slide 1"></button>
+        <button class="slider-dot" aria-label="Slide 2"></button>
+        <button class="slider-dot" aria-label="Slide 3"></button>
+      </div>
+      <div class="scroll-cue">SCROLL ↓</div>
+    </section>
+
+    <!-- ============ WELCOME ============ -->
+    <section class="section">
+      <div class="container welcome-grid">
+        <div class="welcome-text reveal">
+          <span class="eyebrow">Welcome to Rands</span>
+          <h2>A destination built for the good times</h2>
+          <p class="lead">From sizzling shisanyama platters to hand-crafted cocktails and world-class DJ sets, Rands Cape Town blends township soul with refined, premium hospitality.</p>
+          <p>Whether it's a long Sunday lunch, a Friday night out, or a private celebration, every detail is designed to make you feel at home — and a little bit spoiled.</p>
+          <div class="btn-row mt-3">
+            <a href="about.html" class="btn btn-secondary">Our Story</a>
+            <a href="menu.html" class="btn btn-outline">View Menu</a>
+          </div>
+        </div>
+        <div class="welcome-media reveal reveal-right">
+          <img src="C:\Users\w7196171\Desktop\rands-cape-town-website-development\images\vibe2.jpeg" alt="Guests enjoying the Rands Cape Town venue" loading="lazy" />
+          <span class="badge">Est. in Khayelitsha</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED DISHES ============ -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">From the Kitchen</span>
+          <h2>Featured Dishes</h2>
+          <p>A taste of what's sizzling at Rands. Tap any dish to take a closer look.</p>
+        </div>
+        <div class="menu-grid">
+          <a class="menu-card reveal" href="#dish1" data-gallery data-full="images/food1.jpeg" data-caption="Umleqwa">
+            <img src="images/food1.jpeg" alt="umleqwa" loading="lazy" />
+            <span class="tag">Best Seller</span>
+            <div class="overlay"><h3>Umleqwa<span class="price">· R 80</span></h3></div>
+          </a>
+          <a class="menu-card reveal" href="#dish2" data-gallery data-full="images/food2.jpeg" data-caption="Upensi/Ulusu">
+            <img src="images/food2.jpeg" alt="upensit" loading="lazy" />
+            <div class="overlay"><h3>Upensi/Ulusu <span class="price">· R 80</span></h3></div>
+          </a>
+          <a class="menu-card reveal" href="#dish3" data-gallery data-full="images/food3.jpeg" data-caption="OXTAIL">
+            <img src="images/food3.jpeg" alt="OXTAIL" loading="lazy" />
+            <div class="overlay"><h3>OXTAIL<span class="price">· R 120</span></h3></div>
+          </a>
+          
+        </div>
+        <div class="text-center mt-4 reveal">
+          <a href="menu.html" class="btn btn-primary btn-lg">View Full Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COUNTERS ============ -->
+    <section class="section section--dark">
+      <div class="container">
+        <div class="counter-grid">
+          <div class="counter reveal"><div class="num" data-target="10" data-suffix="+">0</div><div class="lbl">Years Serving</div></div>
+          <div class="counter reveal"><div class="num" data-target="500" data-suffix="+">0</div><div class="lbl">Events Hosted</div></div>
+          <div class="counter reveal"><div class="num" data-target="120" data-suffix="K+">0</div><div class="lbl">Happy Guests</div></div>
+          <div class="counter reveal"><div class="num" data-target="50" data-suffix="+">0</div><div class="lbl">Signature Dishes</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ UPCOMING EVENTS PREVIEW ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">What's On</span>
+          <h2>Upcoming Events</h2>
+          <p>Here's a taste of what's coming to Rands.</p>
+        </div>
+        <div class="event-grid">
+          <article class="event-card reveal">
+            <div class="event-banner">
+              <img src="images\new.png" alt="Rands 11th Birthday" loading="lazy" />
+              <div class="event-date-chip"><div class="d">30</div><div class="m">AUG</div></div>
+            </div>
+            <div class="event-body">
+              <h3>Rands 11th Birthday</h3>
+              <div class="event-meta"><span class="chip gold">SUN 12:00</span></div>
+              <p>Come see you vibe on CHAPTER XI celebration.</p>
+              <div class="event-meta"><span class="chip red">Dress: Smart</span></div>
+              <div class="event-foot"><button class="btn btn-disabled btn-sm w-full" disabled>Tickets Coming Soon</button></div>
+            </div>
+          </article>
+          <!--
+<article class="event-card reveal">
+  <div class="event-banner">
+    <img src="https://picsum.photos/seed/rands-event-2/640/400" alt="Braai & Beats event banner" loading="lazy" />
+    <div class="event-date-chip">
+      <div class="d">20</div>
+      <div class="m">Jun</div>
+    </div>
+  </div>
+
+  <div class="event-body">
+    <h3>Braai &amp; Beats</h3>
+    <div class="event-meta">
+      <span class="chip gold">Sat · 14:00</span>
+      <span class="chip">Amapiano</span>
+    </div>
+    <p>Daytime braai, chilled beats and family vibes that turn into a night to remember.</p>
+    <div class="event-meta">
+      <span class="chip red">Dress: Casual</span>
+      <span class="chip">Garden</span>
+    </div>
+    <div class="event-foot">
+      <button class="btn btn-disabled btn-sm w-full" disabled>Tickets Coming Soon</button>
+    </div>
+  </div>
+</article>
+
+<article class="event-card reveal">
+  <div class="event-banner">
+    <img src="https://picsum.photos/seed/rands-event-3/640/400" alt="VIP New Year's Eve event banner" loading="lazy" />
+    <div class="event-date-chip">
+      <div class="d">31</div>
+      <div class="m">Dec</div>
+    </div>
+  </div>
+
+  <div class="event-body">
+    <h3>NYE Gold Party</h3>
+    <div class="event-meta">
+      <span class="chip gold">Tue · 20:00</span>
+      <span class="chip">All Night</span>
+    </div>
+    <p>Our biggest night of the year. Gold theme, premium open bar and a midnight surprise.</p>
+    <div class="event-meta">
+      <span class="chip red">Dress: Gold</span>
+      <span class="chip">VIP Lounge</span>
+    </div>
+    <div class="event-foot">
+      <button class="btn btn-disabled btn-sm w-full" disabled>Tickets Coming Soon</button>
+    </div>
+  </div>
+</article>
+-->
+        </div>
+        <div class="text-center mt-4 reveal">
+          <a href="events.html" class="btn btn-secondary btn-lg">All Events</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY PREVIEW ============ -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">The Vibe</span>
+          <h2>Gallery Preview</h2>
+          <p>Moments from the venue, the food and the floor. Tap any image to enlarge.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item reveal" data-gallery data-full="https://picsum.photos/seed/rands-g1/1200/1200" data-caption="The Venue"><img src="images/vibe.jpeg" alt="Rands venue interior" loading="lazy" /><div class="g-overlay"><span>EVENTS</span></div></div>
+          <div class="gallery-item reveal" data-gallery data-full="https://picsum.photos/seed/rands-g2/1200/1200" data-caption="Plated Food"><img src="images/vibe4.jpeg" alt="Plated food" loading="lazy" /><div class="g-overlay"><span>Featured DJs</span></div></div>
+          <div class="gallery-item reveal" data-gallery data-full="https://picsum.photos/seed/rands-g3/1200/1200" data-caption="Live Event"><img src="images/vibe6.jpeg" alt="Live event crowd" loading="lazy" /><div class="g-overlay"><span>Featured DJs</span></div></div>
+          <div class="gallery-item reveal" data-gallery data-full="https://picsum.photos/seed/rands-g4/1200/1200" data-caption="VIP Lounge"><img src="images/vibe7.png" alt="VIP lounge area" loading="lazy" /><div class="g-overlay"><span>11th celebration</span></div></div>
+          <div class="gallery-item reveal" data-gallery data-full="https://picsum.photos/seed/rands-g5/1200/1200" data-caption="Lifestyle"><img src="images/vibe8.png" alt="Lifestyle moment" loading="lazy" /><div class="g-overlay"><span>Lifestyle</span></div></div>
+          <div class="gallery-item reveal" data-gallery data-full="https://picsum.photos/seed/rands-g6/1200/1200" data-caption="Resident DJ"><img src="images/vibe10.jpg" alt="Lifestyle moment" loading="lazy" /><div class="g-overlay"><span>Lifestyle moment</span></div></div>
+          <div class="gallery-item reveal" data-gallery data-full="https://picsum.photos/seed/rands-g7/1200/1200" data-caption="Braai Station"><img src="images/vibe12.jpg" alt="Braai station" loading="lazy" /><div class="g-overlay"><span>Mshayi</span></div></div>
+          <div class="gallery-item reveal" data-gallery data-full="https://picsum.photos/seed/rands-g8/1200/1200" data-caption="Crowd Energy"><img src="images/vibe3.jpeg" alt="Crowd energy on the floor" loading="lazy" /><div class="g-overlay"><span>Nights</span></div></div>
+        </div>
+        <div class="text-center mt-4 reveal">
+          <a href="gallery.html" class="btn btn-outline btn-lg">Open Full Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Guest Love</span>
+          <h2>What People Say</h2>
+        </div>
+        <div class="testi-grid">
+          <div class="testi-card reveal">
+            <div class="quote">&ldquo;</div>
+            <p>The vibe at Rands is unmatched. The braai is fire, the cocktails are next level and the music just hits different.</p>
+            <div class="testi-author"><div class="testi-avatar">TN</div><div><div class="name">Themba N.</div><div class="role">Regular Guest</div></div></div>
+          </div>
+          <div class="testi-card reveal">
+            <div class="quote">&ldquo;</div>
+            <p>We booked the VIP lounge for a birthday and it was flawless. Premium service, beautiful space, great energy.</p>
+            <div class="testi-author"><div class="testi-avatar">LM</div><div><div class="name">Lerato M.</div><div class="role">Events</div></div></div>
+          </div>
+          <div class="testi-card reveal">
+            <div class="quote">&ldquo;</div>
+            <p>Best shisanyama in Cape Town, hands down. You feel the pride and the warmth the moment you walk in.</p>
+            <div class="testi-author"><div class="testi-avatar">SK</div><div><div class="name">Sipho K.</div><div class="role">Foodie</div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SPONSORS PREVIEW ============ -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Powered By</span>
+          <h2>Our Partners</h2>
+          <p>We're proud to stand with brands that share our passion for quality and culture.</p>
+        </div>
+        <div class="sponsor-grid">
+          <div class="sponsor-card reveal"><div class="sponsor-logo">HB</div><h4>Heineken</h4><p>Beverage Partner</p></div>
+          <div class="sponsor-card reveal"><div class="sponsor-logo">JC</div><h4>Johnnie Walker</h4><p>Beverage Partner</p></div>
+          <div class="sponsor-card reveal"><div class="sponsor-logo">CT</div><h4>CapeTown FM</h4><p>Media Partner</p></div>
+          <div class="sponsor-card reveal"><div class="sponsor-logo">KH</div><h4>Khayelitsha Trust</h4><p>Community Partner</p></div>
+        </div>
+        <div class="text-center mt-4 reveal">
+          <a href="sponsors.html" class="btn btn-secondary">Meet All Partners</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HOURS PREVIEW ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Plan Your Visit</span>
+          <h2>Operating Hours</h2>
+        </div>
+        <div class="hours-grid">
+
+          <div class="hour-card reveal closed"><div class="h-icon"></div><div class="day">Monday</div><div class="time">Closed</div></div>
+          <div class="hour-card reveal closed"><div class="h-icon"></div><div class="day">Tuesday</div><div class="time">Closed</div></div>
+           <div class="hour-card reveal closed"><div class="h-icon"></div><div class="day">Wednesday</div><div class="time">Closed</div></div>          <div class="hour-card reveal"><div class="h-icon"></div><div class="day">Thursday</div><div class="time">12:00 – 23:00</div></div>
+          <div class="hour-card reveal"><div class="h-icon"></div><div class="day">Friday</div><div class="time">12:00 – 23:00</div></div>
+          <div class="hour-card reveal"><div class="h-icon"></div><div class="day">Saturday</div><div class="time">12:00 – 23:00</div></div>
+          <div class="hour-card reveal"><div class="h-icon"></div><div class="day">Sunday</div><div class="time">12:00 – 23:00</div></div>
+       
+        </div>
+        <div class="text-center mt-4 reveal">
+          <a href="hours.html" class="btn btn-outline">Full Hours &amp; Info</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="section cta-band">
+      <div class="container reveal">
+        <span class="eyebrow">Your Table Awaits</span>
+        <h2>Taste the <span class="gold">Rands</span> Experience</h2>
+        <p class="mt-2">Book a table, plan your event, or just come through for the vibe.</p>
+        <div class="btn-row mt-3" style="justify-content:center">
+          <a href="contact.html" class="btn btn-primary btn-lg">Book / Enquire</a>
+          <a href="menu.html" class="btn btn-ghost btn-lg">Browse Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MAP ============ -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Find Us</span>
+          <h2>Visit Rands Cape Town</h2>
+          <p>Khayelitsha, Cape Town — come for the food, stay for the night.</p>
+        </div>
+        <div class="map-wrap reveal">
+          <iframe class="map-embed" src="https://www.google.com/maps?q=Khayelitsha,%20Cape%20Town,%20South%20Africa&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Rands Cape Town location map"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <img src="images\randslogo.jpeg" alt="Rands Cape Town logo" />
+          <p>Khayelitsha's premium restaurant, shisanyama, bar &amp; entertainment destination. Good food, great music, unforgettable nights.</p>
+          <div class="footer-social">
+            <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener">FB</a>
+            <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+            <a href="https://tiktok.com" aria-label="TikTok" target="_blank" rel="noopener">TT</a>
+            <a href="https://wa.me/27000000000" aria-label="WhatsApp" target="_blank" rel="noopener">WA</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Business Hours</h4>
+          <ul>
+            <li>Mon — Closed</li>
+            <li>Tue — Closed</li>
+            <li>Wed — Closed</li>
+            <li>Thu — 11:00–23:00</li>
+            <li>Fri — 11:00–23:00</li>
+            <li>Sat — 11:00–23:00</li>
+            <li>Sun — 11:00–23:00</li>
+          </ul>
+          <h4 style="margin-top:1.5rem">More</h4>
+          <ul><li><a href="sponsors.html">Sponsors &amp; Partners</a></li><li><a href="hours.html">Operating Hours</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>Get event invites &amp; specials straight to your inbox.</p>
+          <form class="newsletter">
+            <input type="email" placeholder="Your email" aria-label="Email address" required />
+            <button class="btn btn-primary btn-sm" type="submit">Join</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> Rands Cape Town. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" aria-label="Back to top">&#8593;</button>
+
+  <!-- Image lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lb-close" aria-label="Close">&times;</button>
+    <button class="lb-nav lb-prev" aria-label="Previous">&#8249;</button>
+    <img class="lb-img" src="" alt="" />
+    <button class="lb-nav lb-next" aria-label="Next">&#8250;</button>
+    <p class="lb-caption" style="position:absolute;bottom:1.6rem;left:0;right:0;text-align:center;color:#fff;font-family:var(--font-head)"></p>
+  </div>
+
+  <script src="js/app.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
